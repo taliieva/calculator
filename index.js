@@ -19,7 +19,7 @@ buttons.forEach((button)=>{
             screen.value = output;
         }
         else if(event.target.innerText == "%"){
-            output = eval(output) /100;
+            output = eval(output/100)
             screen.value = output;
         }
         else{
