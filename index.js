@@ -27,6 +27,7 @@ buttons.forEach((button)=>{
             output = eval(output/100)
             screen.value = output;
         }
+       
         else{
             output += event.target.innerText
             screen.value = output;
